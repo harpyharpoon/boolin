@@ -1,0 +1,962 @@
+Wed Jan 15 03:59:55 2025: Starting jack server...
+Wed Jan 15 03:59:55 2025: JACK server starting in realtime mode with priority 10
+Wed Jan 15 03:59:55 2025: self-connect-mode is "Don't restrict self connect requests"
+Wed Jan 15 03:59:55 2025: Acquired audio card Audio1
+Wed Jan 15 03:59:55 2025: creating alsa driver ... hw:USB|hw:USB|1024|2|48000|0|0|nomon|swmeter|-|32bit
+Wed Jan 15 03:59:55 2025: configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+Wed Jan 15 03:59:55 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 03:59:55 2025: ALSA: use 2 periods for capture
+Wed Jan 15 03:59:55 2025: ALSA: final selected sample format for playback: 32bit integer little-endian
+Wed Jan 15 03:59:55 2025: ALSA: use 2 periods for playback
+Wed Jan 15 03:59:55 2025: port created: Midi-Through:midi/playback_1
+Wed Jan 15 03:59:55 2025: port created: Midi-Through:midi/capture_1
+Wed Jan 15 03:59:55 2025: port created: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 03:59:55 2025: port created: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 03:59:55 2025: port created: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 03:59:55 2025: port created: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 03:59:55 2025: port created: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 03:59:55 2025: port created: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 03:59:55 2025: port created: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_1'
+Wed Jan 15 03:59:55 2025: New client 'system' with PID 0
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_2'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_3'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_4'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_5'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_6'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_7'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_8'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_9'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:capture_10'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:playback_1'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:playback_2'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:playback_3'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:playback_4'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:playback_5'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:playback_6'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_capture_1'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_playback_1'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_capture_2'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_playback_2'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_capture_3'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_playback_3'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_capture_4'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_playback_4'
+Wed Jan 15 03:59:55 2025: graph reorder: new port 'system:midi_playback_5'
+Wed Jan 15 03:59:55 2025: New client 'PulseAudio JACK Sink' with PID 1689
+Wed Jan 15 03:59:55 2025: New client 'PipeWire' with PID 1273
+Wed Jan 15 03:59:55 2025: Connecting 'PulseAudio JACK Sink:front-left' to 'system:playback_1'
+Wed Jan 15 03:59:55 2025: Connecting 'PulseAudio JACK Sink:front-right' to 'system:playback_2'
+Wed Jan 15 03:59:55 2025: Connecting 'PipeWire:playback_FL' to 'system:playback_1'
+Wed Jan 15 03:59:55 2025: Connecting 'PipeWire:playback_FR' to 'system:playback_2'
+Wed Jan 15 03:59:55 2025: Connecting 'PipeWire:playback_0' to 'system:midi_playback_3'
+Wed Jan 15 03:59:55 2025: Connecting 'system:capture_1' to 'PipeWire:capture_FL'
+Wed Jan 15 03:59:55 2025: Connecting 'system:capture_2' to 'PipeWire:capture_FR'
+Wed Jan 15 03:59:55 2025: Connecting 'system:midi_capture_3' to 'PipeWire:capture_0'
+Wed Jan 15 03:59:55 2025: New client 'PulseAudio JACK Source' with PID 1689
+Wed Jan 15 03:59:55 2025: Connecting 'system:capture_1' to 'PulseAudio JACK Source:front-left'
+Wed Jan 15 03:59:55 2025: Connecting 'system:capture_2' to 'PulseAudio JACK Source:front-right'
+Wed Jan 15 03:59:56 2025: Saving settings to "/home/harpoon/.config/jack/conf.xml" ...
+Wed Jan 15 03:59:57 2025: New client 'qjackctl' with PID 2955
+Wed Jan 15 04:03:21 2025: New client 'QmidiNet' with PID 3624
+Wed Jan 15 04:03:21 2025: port created: QmidiNet:midi/playback_1
+Wed Jan 15 04:03:21 2025: port created: QmidiNet:midi/capture_1
+Wed Jan 15 04:03:21 2025: port created: QmidiNet:midi/playback_2
+Wed Jan 15 04:03:21 2025: port created: QmidiNet:midi/capture_2
+Wed Jan 15 04:03:21 2025: port created: QmidiNet:midi/playback_3
+Wed Jan 15 04:03:21 2025: port created: QmidiNet:midi/capture_3
+Wed Jan 15 04:03:25 2025: Client 'QmidiNet' with PID 3624 is out
+Wed Jan 15 04:03:26 2025: New client 'QmidiNet' with PID 3624
+Wed Jan 15 04:03:26 2025: port deleted: QmidiNet:midi/capture_1
+Wed Jan 15 04:03:26 2025: port deleted: QmidiNet:midi/capture_2
+Wed Jan 15 04:03:26 2025: port deleted: QmidiNet:midi/capture_3
+Wed Jan 15 04:03:26 2025: port deleted: QmidiNet:midi/playback_1
+Wed Jan 15 04:03:26 2025: port deleted: QmidiNet:midi/playback_2
+Wed Jan 15 04:03:26 2025: port deleted: QmidiNet:midi/playback_3
+Wed Jan 15 04:03:31 2025: Client 'QmidiNet' with PID 3624 is out
+Wed Jan 15 04:03:32 2025: New client 'QmidiNet' with PID 3624
+Wed Jan 15 04:03:32 2025: port created: QmidiNet:midi/playback_1
+Wed Jan 15 04:03:32 2025: port created: QmidiNet:midi/capture_1
+Wed Jan 15 04:03:32 2025: port created: QmidiNet:midi/playback_2
+Wed Jan 15 04:03:32 2025: port created: QmidiNet:midi/capture_2
+Wed Jan 15 04:03:32 2025: port created: QmidiNet:midi/playback_3
+Wed Jan 15 04:03:32 2025: port created: QmidiNet:midi/capture_3
+Wed Jan 15 04:03:59 2025: configuring for 48000Hz, period = 2048 frames (42.7 ms), buffer = 2 periods
+Wed Jan 15 04:03:59 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ALSA: cannot set period size to 2048 frames for capture[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ALSA: cannot configure capture channel[0m
+Wed Jan 15 04:03:59 2025: configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+Wed Jan 15 04:03:59 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 04:03:59 2025: ALSA: use 2 periods for capture
+Wed Jan 15 04:03:59 2025: ALSA: final selected sample format for playback: 32bit integer little-endian
+Wed Jan 15 04:03:59 2025: ALSA: use 2 periods for playback
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot SetBufferSize for audio driver, restore current value 1024[0m
+Wed Jan 15 04:03:59 2025: configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+Wed Jan 15 04:03:59 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 04:03:59 2025: ALSA: use 2 periods for capture
+Wed Jan 15 04:03:59 2025: ALSA: final selected sample format for playback: 32bit integer little-endian
+Wed Jan 15 04:03:59 2025: ALSA: use 2 periods for playback
+Wed Jan 15 04:03:59 2025: Client 'qjackctl' with PID 2955 is out
+Wed Jan 15 04:03:59 2025: Stopping jack server...
+Wed Jan 15 04:03:59 2025: Client 'system' with PID 0 is out
+Wed Jan 15 04:03:59 2025: Client 'PulseAudio JACK Sink' with PID 1689 is out
+Wed Jan 15 04:03:59 2025: Client 'PipeWire' with PID 1273 is out
+Wed Jan 15 04:03:59 2025: Client 'PulseAudio JACK Source' with PID 1689 is out
+Wed Jan 15 04:03:59 2025: Client 'QmidiNet' with PID 3624 is out
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: QmidiNet:midi/playback_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: QmidiNet:midi/playback_2
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: QmidiNet:midi/playback_3
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Midi-Through:midi/playback_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: QmidiNet:midi/capture_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: QmidiNet:midi/capture_2
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: QmidiNet:midi/capture_3
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: port deleted: Midi-Through:midi/capture_1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: Released audio card Audio1
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 21 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 24 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Cannot write socket fd = 33 err = Broken pipe[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:03:59 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:04:00 2025: Starting jack server...
+Wed Jan 15 04:04:00 2025: JACK server starting in realtime mode with priority 10
+Wed Jan 15 04:04:00 2025: self-connect-mode is "Don't restrict self connect requests"
+Wed Jan 15 04:04:02 2025: Acquired audio card Audio1
+Wed Jan 15 04:04:02 2025: creating alsa driver ... hw:USB|hw:USB|2048|2|48000|0|0|nomon|swmeter|-|32bit
+Wed Jan 15 04:04:02 2025: configuring for 48000Hz, period = 2048 frames (42.7 ms), buffer = 2 periods
+Wed Jan 15 04:04:02 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 04:04:02 2025: ALSA: use 2 periods for capture
+Wed Jan 15 04:04:02 2025: ALSA: final selected sample format for playback: 32bit integer little-endian
+Wed Jan 15 04:04:02 2025: ALSA: use 2 periods for playback
+Wed Jan 15 04:04:02 2025: port created: Midi-Through:midi/playback_1
+Wed Jan 15 04:04:02 2025: port created: Midi-Through:midi/capture_1
+Wed Jan 15 04:04:02 2025: port created: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:04:02 2025: port created: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:04:02 2025: port created: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:04:02 2025: port created: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:04:02 2025: port created: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:04:02 2025: port created: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:04:02 2025: port created: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:04:02 2025: port created: QmidiNet:midi/playback_1
+Wed Jan 15 04:04:02 2025: port created: QmidiNet:midi/capture_1
+Wed Jan 15 04:04:02 2025: port created: QmidiNet:midi/playback_2
+Wed Jan 15 04:04:02 2025: port created: QmidiNet:midi/capture_2
+Wed Jan 15 04:04:02 2025: port created: QmidiNet:midi/playback_3
+Wed Jan 15 04:04:02 2025: port created: QmidiNet:midi/capture_3
+Wed Jan 15 04:04:02 2025: Saving settings to "/home/harpoon/.config/jack/conf.xml" ...
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_1'
+Wed Jan 15 04:04:02 2025: New client 'system' with PID 0
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_2'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_3'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_4'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_5'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_6'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_7'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_8'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_9'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:capture_10'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:playback_1'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:playback_2'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:playback_3'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:playback_4'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:playback_5'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:playback_6'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_1'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_1'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_2'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_2'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_3'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_3'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_4'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_4'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_5'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_5'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_6'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_6'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_7'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_capture_7'
+Wed Jan 15 04:04:02 2025: graph reorder: new port 'system:midi_playback_8'
+Wed Jan 15 04:04:02 2025: New client 'PipeWire' with PID 1273
+Wed Jan 15 04:04:02 2025: New client 'PulseAudio JACK Sink' with PID 1689
+Wed Jan 15 04:04:02 2025: Connecting 'PulseAudio JACK Sink:front-left' to 'system:playback_1'
+Wed Jan 15 04:04:02 2025: Connecting 'PipeWire:playback_FL' to 'system:playback_1'
+Wed Jan 15 04:04:02 2025: Connecting 'PulseAudio JACK Sink:front-right' to 'system:playback_2'
+Wed Jan 15 04:04:02 2025: Connecting 'PipeWire:playback_FR' to 'system:playback_2'
+Wed Jan 15 04:04:02 2025: Connecting 'PipeWire:playback_0' to 'system:midi_playback_3'
+Wed Jan 15 04:04:02 2025: Connecting 'system:capture_1' to 'PipeWire:capture_FL'
+Wed Jan 15 04:04:02 2025: Connecting 'system:capture_2' to 'PipeWire:capture_FR'
+Wed Jan 15 04:04:02 2025: Connecting 'system:midi_capture_3' to 'PipeWire:capture_0'
+Wed Jan 15 04:04:02 2025: New client 'PulseAudio JACK Source' with PID 1689
+Wed Jan 15 04:04:02 2025: Connecting 'system:capture_1' to 'PulseAudio JACK Source:front-left'
+Wed Jan 15 04:04:02 2025: Connecting 'system:capture_2' to 'PulseAudio JACK Source:front-right'
+Wed Jan 15 04:04:04 2025: New client 'qjackctl' with PID 2955
+Wed Jan 15 04:04:12 2025: New client 'QmidiNet' with PID 3624
+Wed Jan 15 04:04:12 2025: port deleted: QmidiNet:midi/capture_1
+Wed Jan 15 04:04:12 2025: port deleted: QmidiNet:midi/capture_2
+Wed Jan 15 04:04:12 2025: port deleted: QmidiNet:midi/capture_3
+Wed Jan 15 04:04:12 2025: port deleted: QmidiNet:midi/playback_1
+Wed Jan 15 04:04:12 2025: port deleted: QmidiNet:midi/playback_2
+Wed Jan 15 04:04:12 2025: port deleted: QmidiNet:midi/playback_3
+Wed Jan 15 04:06:34 2025: Client 'qjackctl' with PID 2955 is out
+Wed Jan 15 04:06:34 2025: Stopping jack server...
+Wed Jan 15 04:06:34 2025: Client 'system' with PID 0 is out
+Wed Jan 15 04:06:34 2025: Client 'PipeWire' with PID 1273 is out
+Wed Jan 15 04:06:34 2025: Client 'PulseAudio JACK Sink' with PID 1689 is out
+Wed Jan 15 04:06:34 2025: Client 'PulseAudio JACK Source' with PID 1689 is out
+Wed Jan 15 04:06:34 2025: Client 'QmidiNet' with PID 3624 is out
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Midi-Through:midi/playback_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: port deleted: Midi-Through:midi/capture_1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: Released audio card Audio1
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 22 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 30 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:06:34 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:06:35 2025: Starting jack server...
+Wed Jan 15 04:06:35 2025: JACK server starting in realtime mode with priority 10
+Wed Jan 15 04:06:35 2025: self-connect-mode is "Don't restrict self connect requests"
+Wed Jan 15 04:06:40 2025: Device reservation request with priority 2147483647 denied for "Audio1": org.freedesktop.DBus.Error.NoReply (Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, 
+Wed Jan 15 04:06:40 2025: [1m[31mERROR: Failed to acquire device name : Audio1 error : Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broke[0m
+Wed Jan 15 04:06:40 2025: [1m[31mERROR: Audio device hw:USB cannot be acquired...[0m
+Wed Jan 15 04:06:40 2025: [1m[31mERROR: Cannot initialize driver[0m
+Wed Jan 15 04:06:40 2025: [1m[31mERROR: JackServer::Open failed with -1[0m
+Wed Jan 15 04:06:40 2025: [1m[31mERROR: Failed to open server[0m
+Wed Jan 15 04:06:40 2025: Saving settings to "/home/harpoon/.config/jack/conf.xml" ...
+Wed Jan 15 04:06:55 2025: Starting jack server...
+Wed Jan 15 04:06:55 2025: JACK server starting in realtime mode with priority 10
+Wed Jan 15 04:06:55 2025: self-connect-mode is "Don't restrict self connect requests"
+Wed Jan 15 04:06:55 2025: Acquired audio card Audio2
+Wed Jan 15 04:06:55 2025: creating alsa driver ... hw:X,0|hw:X,0|2048|2|48000|0|0|nomon|swmeter|-|32bit
+Wed Jan 15 04:06:55 2025: [1m[31mERROR: 
+
+ATTENTION: The playback device "hw:X,0" is already in use. The following applications  are using your soundcard(s) so you should  check them and stop them as necessary before  trying to start JACK again:
+
+pulseaudio (process ID 1689)
+[0m
+Wed Jan 15 04:06:55 2025: Released audio card Audio2
+Wed Jan 15 04:06:55 2025: [1m[31mERROR: Cannot initialize driver[0m
+Wed Jan 15 04:06:55 2025: [1m[31mERROR: JackServer::Open failed with -1[0m
+Wed Jan 15 04:06:55 2025: [1m[31mERROR: Failed to open server[0m
+Wed Jan 15 04:06:56 2025: Saving settings to "/home/harpoon/.config/jack/conf.xml" ...
+Wed Jan 15 04:16:27 2025: Starting jack server...
+Wed Jan 15 04:16:27 2025: JACK server starting in realtime mode with priority 10
+Wed Jan 15 04:16:27 2025: self-connect-mode is "Don't restrict self connect requests"
+Wed Jan 15 04:16:27 2025: Acquired audio card Audio1
+Wed Jan 15 04:16:27 2025: creating alsa driver ... hw:USB|hw:USB|1024|2|48000|0|0|nomon|swmeter|-|32bit
+Wed Jan 15 04:16:27 2025: configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+Wed Jan 15 04:16:27 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 04:16:27 2025: ALSA: use 2 periods for capture
+Wed Jan 15 04:16:27 2025: ALSA: final selected sample format for playback: 32bit integer little-endian
+Wed Jan 15 04:16:27 2025: ALSA: use 2 periods for playback
+Wed Jan 15 04:16:27 2025: port created: Midi-Through:midi/playback_1
+Wed Jan 15 04:16:27 2025: port created: Midi-Through:midi/capture_1
+Wed Jan 15 04:16:27 2025: port created: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:16:27 2025: port created: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:16:27 2025: port created: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:16:27 2025: port created: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:16:27 2025: port created: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:16:27 2025: port created: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:16:27 2025: port created: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:16:27 2025: port created: QmidiNet:midi/playback_1
+Wed Jan 15 04:16:27 2025: port created: QmidiNet:midi/capture_1
+Wed Jan 15 04:16:27 2025: port created: QmidiNet:midi/playback_2
+Wed Jan 15 04:16:27 2025: port created: QmidiNet:midi/capture_2
+Wed Jan 15 04:16:27 2025: port created: QmidiNet:midi/playback_3
+Wed Jan 15 04:16:27 2025: port created: QmidiNet:midi/capture_3
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_1'
+Wed Jan 15 04:16:28 2025: New client 'system' with PID 0
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_2'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_3'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_4'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_5'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_6'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_7'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_8'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_9'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:capture_10'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:playback_1'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:playback_2'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:playback_3'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:playback_4'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:playback_5'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:playback_6'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_1'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_1'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_2'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_2'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_3'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_3'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_4'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_4'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_5'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_5'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_6'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_6'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_7'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_capture_7'
+Wed Jan 15 04:16:28 2025: graph reorder: new port 'system:midi_playback_8'
+Wed Jan 15 04:16:28 2025: New client 'PipeWire' with PID 1273
+Wed Jan 15 04:16:28 2025: Saving settings to "/home/harpoon/.config/jack/conf.xml" ...
+Wed Jan 15 04:16:30 2025: New client 'qjackctl' with PID 2955
+Wed Jan 15 04:16:45 2025: Client 'qjackctl' with PID 2955 is out
+Wed Jan 15 04:16:45 2025: Stopping jack server...
+Wed Jan 15 04:16:45 2025: Client 'system' with PID 0 is out
+Wed Jan 15 04:16:45 2025: Client 'PipeWire' with PID 1273 is out
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: QmidiNet:midi/playback_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: QmidiNet:midi/playback_2
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: QmidiNet:midi/playback_3
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Midi-Through:midi/playback_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: QmidiNet:midi/capture_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: QmidiNet:midi/capture_2
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: QmidiNet:midi/capture_3
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: port deleted: Midi-Through:midi/capture_1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:16:45 2025: Released audio card Audio1
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Cannot write socket fd = 27 err = Broken pipe[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:16:45 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:28:21 2025: Starting jack server...
+Wed Jan 15 04:28:21 2025: JACK server starting in realtime mode with priority 10
+Wed Jan 15 04:28:21 2025: self-connect-mode is "Don't restrict self connect requests"
+Wed Jan 15 04:28:21 2025: Acquired audio card Audio1
+Wed Jan 15 04:28:21 2025: creating alsa driver ... hw:USB|hw:USB|1024|2|48000|0|0|nomon|swmeter|-|32bit
+Wed Jan 15 04:28:21 2025: configuring for 48000Hz, period = 1024 frames (21.3 ms), buffer = 2 periods
+Wed Jan 15 04:28:21 2025: ALSA: final selected sample format for capture: 32bit integer little-endian
+Wed Jan 15 04:28:21 2025: ALSA: use 2 periods for capture
+Wed Jan 15 04:28:22 2025: ALSA: final selected sample format for playback: 32bit integer little-endian
+Wed Jan 15 04:28:22 2025: ALSA: use 2 periods for playback
+Wed Jan 15 04:28:22 2025: port created: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:28:22 2025: port created: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:28:22 2025: port created: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:28:22 2025: port created: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:28:22 2025: port created: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:28:22 2025: port created: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:28:22 2025: port created: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:28:22 2025: port created: QmidiNet:midi/playback_1
+Wed Jan 15 04:28:22 2025: port created: QmidiNet:midi/capture_1
+Wed Jan 15 04:28:22 2025: port created: QmidiNet:midi/playback_2
+Wed Jan 15 04:28:22 2025: port created: QmidiNet:midi/capture_2
+Wed Jan 15 04:28:22 2025: port created: QmidiNet:midi/playback_3
+Wed Jan 15 04:28:22 2025: port created: QmidiNet:midi/capture_3
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_1'
+Wed Jan 15 04:28:22 2025: New client 'system' with PID 0
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_2'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_3'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_4'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_5'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_6'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_7'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_8'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_9'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:capture_10'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:playback_1'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:playback_2'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:playback_3'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:playback_4'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:playback_5'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:playback_6'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_capture_1'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_1'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_capture_2'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_2'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_capture_3'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_3'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_4'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_capture_4'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_5'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_capture_5'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_6'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_capture_6'
+Wed Jan 15 04:28:22 2025: graph reorder: new port 'system:midi_playback_7'
+Wed Jan 15 04:28:22 2025: New client 'PipeWire' with PID 1273
+Wed Jan 15 04:28:23 2025: Saving settings to "/home/harpoon/.config/jack/conf.xml" ...
+Wed Jan 15 04:28:24 2025: New client 'qjackctl' with PID 35077
+Wed Jan 15 04:28:44 2025: New client 'QmidiNet' with PID 3624
+Wed Jan 15 04:28:44 2025: port deleted: QmidiNet:midi/capture_1
+Wed Jan 15 04:28:44 2025: port deleted: QmidiNet:midi/capture_2
+Wed Jan 15 04:28:44 2025: port deleted: QmidiNet:midi/capture_3
+Wed Jan 15 04:28:44 2025: port deleted: QmidiNet:midi/playback_1
+Wed Jan 15 04:28:44 2025: port deleted: QmidiNet:midi/playback_2
+Wed Jan 15 04:28:44 2025: port deleted: QmidiNet:midi/playback_3
+Wed Jan 15 04:28:46 2025: Client 'qjackctl' with PID 35077 is out
+Wed Jan 15 04:28:46 2025: Stopping jack server...
+Wed Jan 15 04:28:46 2025: Client 'system' with PID 0 is out
+Wed Jan 15 04:28:46 2025: Client 'PipeWire' with PID 1273 is out
+Wed Jan 15 04:28:46 2025: Client 'QmidiNet' with PID 3624 is out
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: Scarlett-8i6-USB:midi/playback_1
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: Launchkey-MK3-61:midi/playback_1
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: Launchkey-MK3-61:midi/playback_2
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: FLUID-Synth-(1275):midi/capture_1
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: Scarlett-8i6-USB:midi/capture_1
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: Launchkey-MK3-61:midi/capture_1
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: port deleted: Launchkey-MK3-61:midi/capture_2
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: ClientNotify fails name = system notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:28:46 2025: Released audio card Audio1
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 28 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Cannot write socket fd = 37 err = Broken pipe[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: CheckRes error[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: Could not write notification[0m
+Wed Jan 15 04:28:46 2025: [1m[31mERROR: ClientNotify fails name = freewheel notification = 1 val1 = 0 val2 = 0[0m
+Wed Jan 15 04:40:47 2025: ------------------
+Wed Jan 15 04:40:47 2025: Controller activated. Version 1.9.21 ([]) built on Fri Apr  5 20:14:24 2024
+Wed Jan 15 04:40:47 2025: Loading settings from "/home/harpoon/.config/jack/conf.xml" using expat_2.6.1 ...
+Wed Jan 15 04:40:47 2025: setting parameter 'engine':'driver':'(null)' to value "alsa"
+Wed Jan 15 04:40:47 2025: setting parameter 'engine':'realtime':'(null)' to value "true"
+Wed Jan 15 04:40:47 2025: setting parameter 'engine':'verbose':'(null)' to value "false"
+Wed Jan 15 04:40:47 2025: setting parameter 'engine':'sync':'(null)' to value "true"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'device' to value "hw:USB"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'capture' to value "hw:USB"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'playback' to value "hw:USB"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'rate' to value "48000"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'period' to value "1024"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'hwmeter' to value "false"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'duplex' to value "true"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'softmode' to value "false"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'monitor' to value "false"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'dither' to value "n"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'shorts' to value "false"
+Wed Jan 15 04:40:47 2025: setting parameter 'drivers':'alsa':'midi-driver' to value "seq"
+Wed Jan 15 04:40:47 2025: Listening for D-Bus messages
+Wed Jan 15 06:03:40 2025: ------------------
+Wed Jan 15 06:03:40 2025: Controller activated. Version 1.9.21 ([]) built on Fri Apr  5 20:14:24 2024
+Wed Jan 15 06:03:40 2025: Loading settings from "/home/harpoon/.config/jack/conf.xml" using expat_2.6.1 ...
+Wed Jan 15 06:03:40 2025: setting parameter 'engine':'driver':'(null)' to value "alsa"
+Wed Jan 15 06:03:40 2025: setting parameter 'engine':'realtime':'(null)' to value "true"
+Wed Jan 15 06:03:40 2025: setting parameter 'engine':'verbose':'(null)' to value "false"
+Wed Jan 15 06:03:40 2025: setting parameter 'engine':'sync':'(null)' to value "true"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'device' to value "hw:USB"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'capture' to value "hw:USB"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'playback' to value "hw:USB"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'rate' to value "48000"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'period' to value "1024"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'hwmeter' to value "false"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'duplex' to value "true"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'softmode' to value "false"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'monitor' to value "false"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'dither' to value "n"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'shorts' to value "false"
+Wed Jan 15 06:03:40 2025: setting parameter 'drivers':'alsa':'midi-driver' to value "seq"
+Wed Jan 15 06:03:40 2025: Listening for D-Bus messages
+Wed Jan 15 06:49:01 2025: ------------------
+Wed Jan 15 06:49:01 2025: Controller activated. Version 1.9.21 ([]) built on Fri Apr  5 20:14:24 2024
+Wed Jan 15 06:49:01 2025: Loading settings from "/home/harpoon/.config/jack/conf.xml" using expat_2.6.1 ...
+Wed Jan 15 06:49:01 2025: setting parameter 'engine':'driver':'(null)' to value "alsa"
+Wed Jan 15 06:49:01 2025: setting parameter 'engine':'realtime':'(null)' to value "true"
+Wed Jan 15 06:49:01 2025: setting parameter 'engine':'verbose':'(null)' to value "false"
+Wed Jan 15 06:49:01 2025: setting parameter 'engine':'sync':'(null)' to value "true"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'device' to value "hw:USB"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'capture' to value "hw:USB"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'playback' to value "hw:USB"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'rate' to value "48000"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'period' to value "1024"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'hwmeter' to value "false"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'duplex' to value "true"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'softmode' to value "false"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'monitor' to value "false"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'dither' to value "n"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'shorts' to value "false"
+Wed Jan 15 06:49:01 2025: setting parameter 'drivers':'alsa':'midi-driver' to value "seq"
+Wed Jan 15 06:49:01 2025: Listening for D-Bus messages
+Wed Jan 15 07:00:09 2025: ------------------
+Wed Jan 15 07:00:09 2025: Controller activated. Version 1.9.21 ([]) built on Fri Apr  5 20:14:24 2024
+Wed Jan 15 07:00:09 2025: Loading settings from "/home/harpoon/.config/jack/conf.xml" using expat_2.6.1 ...
+Wed Jan 15 07:00:09 2025: setting parameter 'engine':'driver':'(null)' to value "alsa"
+Wed Jan 15 07:00:09 2025: setting parameter 'engine':'realtime':'(null)' to value "true"
+Wed Jan 15 07:00:09 2025: setting parameter 'engine':'verbose':'(null)' to value "false"
+Wed Jan 15 07:00:09 2025: setting parameter 'engine':'sync':'(null)' to value "true"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'device' to value "hw:USB"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'capture' to value "hw:USB"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'playback' to value "hw:USB"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'rate' to value "48000"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'period' to value "1024"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'hwmeter' to value "false"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'duplex' to value "true"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'softmode' to value "false"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'monitor' to value "false"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'dither' to value "n"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'shorts' to value "false"
+Wed Jan 15 07:00:09 2025: setting parameter 'drivers':'alsa':'midi-driver' to value "seq"
+Wed Jan 15 07:00:09 2025: Listening for D-Bus messages
+Wed Jan 15 19:11:17 2025: ------------------
+Wed Jan 15 19:11:17 2025: Controller activated. Version 1.9.21 ([]) built on Fri Apr  5 20:14:24 2024
+Wed Jan 15 19:11:17 2025: Loading settings from "/home/harpoon/.config/jack/conf.xml" using expat_2.6.1 ...
+Wed Jan 15 19:11:17 2025: setting parameter 'engine':'driver':'(null)' to value "alsa"
+Wed Jan 15 19:11:17 2025: setting parameter 'engine':'realtime':'(null)' to value "true"
+Wed Jan 15 19:11:17 2025: setting parameter 'engine':'verbose':'(null)' to value "false"
+Wed Jan 15 19:11:17 2025: setting parameter 'engine':'sync':'(null)' to value "true"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'device' to value "hw:USB"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'capture' to value "hw:USB"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'playback' to value "hw:USB"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'rate' to value "48000"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'period' to value "1024"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'hwmeter' to value "false"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'duplex' to value "true"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'softmode' to value "false"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'monitor' to value "false"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'dither' to value "n"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'shorts' to value "false"
+Wed Jan 15 19:11:17 2025: setting parameter 'drivers':'alsa':'midi-driver' to value "seq"
+Wed Jan 15 19:11:17 2025: Listening for D-Bus messages

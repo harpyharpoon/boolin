@@ -1,0 +1,5 @@
+2025-01-15 03:49:34,347 - AutoJack - INFO - Autojack started: logging started
+2025-01-15 03:49:37,348 - AutoJack - DEBUG - Checking for phones plugged in
+2025-01-15 03:49:37,911 - AutoJack - INFO - Got start signal.
+2025-01-15 03:49:37,911 - AutoJack - INFO - Running: config_start()
+2025-01-15 03:49:40,451 - AutoJack - INFO - Running: config_start after jack_stat
