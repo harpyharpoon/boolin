@@ -1,12 +1,12 @@
 {
 	"folders": [
 		{
-			"name": "boolin",
-			"path": "."
-		},
-		{
 			"name": "steg",
 			"path": "../../steg"
+		},
+		{
+			"name": "boolin",
+			"path": "."
 		}
 	],
 	"settings": {}
