@@ -1,0 +1,146 @@
+UPDATE status=0
+2025-01-27T13:22:21.140182-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: associated
+2025-01-27T13:22:21.144791-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002141.1447] device (wlo1): supplicant interface state: associating -> associated
+2025-01-27T13:22:21.144831-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002141.1447] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+2025-01-27T13:22:21.155885-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002141.1558] device (wlo1): supplicant interface state: associated -> 4way_handshake
+2025-01-27T13:22:21.155923-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002141.1558] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4way_handshake
+2025-01-27T13:22:21.182243-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 02:13:d3:d9:f5:48
+2025-01-27T13:22:25.153227-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: deauthenticated from 02:13:d3:d9:f5:48 (Reason: 14=MIC_FAILURE)
+2025-01-27T13:22:25.161651-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-DISCONNECTED bssid=02:13:d3:d9:f5:48 reason=14
+2025-01-27T13:22:25.161691-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: WPA: 4-Way Handshake failed - pre-shared key may be incorrect
+2025-01-27T13:22:25.161715-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="YoYoMa" auth_failures=1 duration=10 reason=WRONG_KEY
+2025-01-27T13:22:25.167022-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002145.1668] device (wlo1): supplicant interface state: 4way_handshake -> disconnected
+2025-01-27T13:22:25.167065-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002145.1669] device (wlo1): Activation: (wifi) disconnected during association, asking for new key
+2025-01-27T13:22:25.167094-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002145.1669] device (wlo1): state change: config -> need-auth (reason 'supplicant-disconnect', sys-iface-state: 'managed')
+2025-01-27T13:22:25.167117-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002145.1670] device (p2p-dev-wlo1): supplicant management interface state: 4way_handshake -> disconnected
+2025-01-27T13:22:25.231961-05:00 harpoon-Z390-AORUS-PRO-WIFI gvfsd-wsdd[24010]: Failed to spawn the wsdd daemon: Failed to execute child process “wsdd” (No such file or directory)
+2025-01-27T13:22:25.232312-05:00 harpoon-Z390-AORUS-PRO-WIFI gvfsd-network[13342]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+2025-01-27T13:22:25.267102-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002145.2670] device (wlo1): supplicant interface state: disconnected -> inactive
+2025-01-27T13:22:25.267157-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002145.2670] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> inactive
+2025-01-27T13:22:41.601216-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Reloading requested from client PID 24033 ('systemctl') (unit NetworkManager.service)...
+2025-01-27T13:22:41.601271-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Reloading...
+2025-01-27T13:22:41.759462-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: avahi-daemon.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted.
+2025-01-27T13:22:41.759989-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Reloading finished in 158 ms.
+2025-01-27T13:22:41.790805-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7906] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:41.790863-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7907] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:41.790997-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7909] device (wlo1): Activation: (wifi) connection 'YoYoMa 1' has security, and secrets exist.  No new secrets needed.
+2025-01-27T13:22:41.792280-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7922] Config: added 'ssid' value 'YoYoMa'
+2025-01-27T13:22:41.792320-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7922] Config: added 'scan_ssid' value '1'
+2025-01-27T13:22:41.792352-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7922] Config: added 'bgscan' value 'simple:30:-70:86400'
+2025-01-27T13:22:41.792376-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7922] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+2025-01-27T13:22:41.792398-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7922] Config: added 'auth_alg' value 'OPEN'
+2025-01-27T13:22:41.792419-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.7922] Config: added 'psk' value '<hidden>'
+2025-01-27T13:22:41.802522-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.8024] device (wlo1): supplicant interface state: inactive -> scanning
+2025-01-27T13:22:41.802567-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002161.8024] device (p2p-dev-wlo1): supplicant management interface state: inactive -> scanning
+2025-01-27T13:22:42.597086-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: SME: Trying to authenticate with 02:13:d3:d9:f5:48 (SSID='YoYoMa' freq=2442 MHz)
+2025-01-27T13:22:42.597188-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: 80 MHz not supported, disabling VHT
+2025-01-27T13:22:42.599184-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: authenticate with 02:13:d3:d9:f5:48 (local address=74:d8:3e:4e:cf:87)
+2025-01-27T13:22:42.599189-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: send auth to 02:13:d3:d9:f5:48 (try 1/3)
+2025-01-27T13:22:42.600643-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6006] device (wlo1): supplicant interface state: scanning -> authenticating
+2025-01-27T13:22:42.600679-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6006] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+2025-01-27T13:22:42.604015-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: Trying to associate with 02:13:d3:d9:f5:48 (SSID='YoYoMa' freq=2442 MHz)
+2025-01-27T13:22:42.604184-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: authenticated
+2025-01-27T13:22:42.604194-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6041] device (wlo1): supplicant interface state: authenticating -> associating
+2025-01-27T13:22:42.604256-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6041] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+2025-01-27T13:22:42.605242-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: associate with 02:13:d3:d9:f5:48 (try 1/3)
+2025-01-27T13:22:42.645223-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: RX AssocResp from 02:13:d3:d9:f5:48 (capab=0x1431 status=0 aid=129)
+2025-01-27T13:22:42.647209-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: associated
+2025-01-27T13:22:42.647263-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: Associated with 02:13:d3:d9:f5:48
+2025-01-27T13:22:42.647289-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2025-01-27T13:22:42.652551-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6524] device (wlo1): supplicant interface state: associating -> associated
+2025-01-27T13:22:42.652593-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6525] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+2025-01-27T13:22:42.657715-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6576] device (wlo1): supplicant interface state: associated -> 4way_handshake
+2025-01-27T13:22:42.657751-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002162.6576] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4way_handshake
+2025-01-27T13:22:42.686213-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 02:13:d3:d9:f5:48
+2025-01-27T13:22:46.654189-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: deauthenticated from 02:13:d3:d9:f5:48 (Reason: 14=MIC_FAILURE)
+2025-01-27T13:22:46.665555-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-DISCONNECTED bssid=02:13:d3:d9:f5:48 reason=14
+2025-01-27T13:22:46.665602-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: WPA: 4-Way Handshake failed - pre-shared key may be incorrect
+2025-01-27T13:22:46.665619-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="YoYoMa" auth_failures=1 duration=10 reason=WRONG_KEY
+2025-01-27T13:22:46.665636-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="YoYoMa" auth_failures=2 duration=20 reason=CONN_FAILED
+2025-01-27T13:22:46.670920-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002166.6707] device (wlo1): supplicant interface state: 4way_handshake -> disconnected
+2025-01-27T13:22:46.670963-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002166.6708] device (wlo1): Activation: (wifi) disconnected during association, asking for new key
+2025-01-27T13:22:46.670988-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002166.6708] device (wlo1): state change: config -> need-auth (reason 'supplicant-disconnect', sys-iface-state: 'managed')
+2025-01-27T13:22:46.671015-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002166.6709] device (p2p-dev-wlo1): supplicant management interface state: 4way_handshake -> disconnected
+2025-01-27T13:22:46.741839-05:00 harpoon-Z390-AORUS-PRO-WIFI gvfsd-wsdd[24123]: Failed to spawn the wsdd daemon: Failed to execute child process “wsdd” (No such file or directory)
+2025-01-27T13:22:46.742025-05:00 harpoon-Z390-AORUS-PRO-WIFI gvfsd-network[13342]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+2025-01-27T13:22:46.771020-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002166.7709] device (wlo1): supplicant interface state: disconnected -> inactive
+2025-01-27T13:22:46.771074-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002166.7709] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> inactive
+2025-01-27T13:22:54.507136-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Reloading requested from client PID 24166 ('systemctl') (unit NetworkManager.service)...
+2025-01-27T13:22:54.507236-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Reloading...
+2025-01-27T13:22:54.668186-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: avahi-daemon.socket: Socket unit configuration has changed while unit has been running, no open socket file descriptor left. The socket unit is not functional until restarted.
+2025-01-27T13:22:54.668703-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Reloading finished in 161 ms.
+2025-01-27T13:22:54.698278-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6981] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:54.698356-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6982] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:54.698441-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] device (wlo1): Activation: (wifi) connection 'YoYoMa 1' has security, and secrets exist.  No new secrets needed.
+2025-01-27T13:22:54.698474-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] Config: added 'ssid' value 'YoYoMa'
+2025-01-27T13:22:54.698578-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] Config: added 'scan_ssid' value '1'
+2025-01-27T13:22:54.698605-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] Config: added 'bgscan' value 'simple:30:-70:86400'
+2025-01-27T13:22:54.698628-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+2025-01-27T13:22:54.698652-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] Config: added 'auth_alg' value 'OPEN'
+2025-01-27T13:22:54.698675-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.6984] Config: added 'psk' value '<hidden>'
+2025-01-27T13:22:54.708531-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.7084] device (wlo1): supplicant interface state: inactive -> scanning
+2025-01-27T13:22:54.708583-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002174.7085] device (p2p-dev-wlo1): supplicant management interface state: inactive -> scanning
+2025-01-27T13:22:55.533303-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: SME: Trying to authenticate with 02:13:d3:d9:f5:48 (SSID='YoYoMa' freq=2442 MHz)
+2025-01-27T13:22:55.534185-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: 80 MHz not supported, disabling VHT
+2025-01-27T13:22:55.537221-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: authenticate with 02:13:d3:d9:f5:48 (local address=74:d8:3e:4e:cf:87)
+2025-01-27T13:22:55.538141-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5379] device (wlo1): supplicant interface state: scanning -> authenticating
+2025-01-27T13:22:55.538210-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5380] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+2025-01-27T13:22:55.538247-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: send auth to 02:13:d3:d9:f5:48 (try 1/3)
+2025-01-27T13:22:55.542793-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: Trying to associate with 02:13:d3:d9:f5:48 (SSID='YoYoMa' freq=2442 MHz)
+2025-01-27T13:22:55.542986-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5429] device (wlo1): supplicant interface state: authenticating -> associating
+2025-01-27T13:22:55.543023-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5429] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+2025-01-27T13:22:55.543187-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: authenticated
+2025-01-27T13:22:55.543193-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: associate with 02:13:d3:d9:f5:48 (try 1/3)
+2025-01-27T13:22:55.550182-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: RX AssocResp from 02:13:d3:d9:f5:48 (capab=0x1431 status=0 aid=129)
+2025-01-27T13:22:55.551790-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: Associated with 02:13:d3:d9:f5:48
+2025-01-27T13:22:55.551826-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+2025-01-27T13:22:55.552182-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: associated
+2025-01-27T13:22:55.557030-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5569] device (wlo1): supplicant interface state: associating -> associated
+2025-01-27T13:22:55.557070-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5570] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+2025-01-27T13:22:55.567715-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5676] device (wlo1): supplicant interface state: associated -> 4way_handshake
+2025-01-27T13:22:55.567754-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.5676] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4way_handshake
+2025-01-27T13:22:55.577185-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: iwlwifi 0000:00:14.3: Unhandled alg: 0xc0400707
+2025-01-27T13:22:55.584214-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: message repeated 5 times: [ iwlwifi 0000:00:14.3: Unhandled alg: 0xc0400707]
+2025-01-27T13:22:55.596252-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: wlo1: Limiting TX power to 30 (30 - 0) dBm as advertised by 02:13:d3:d9:f5:48
+2025-01-27T13:22:55.608546-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: WPA: Key negotiation completed with 02:13:d3:d9:f5:48 [PTK=CCMP GTK=CCMP]
+2025-01-27T13:22:55.608588-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-CONNECTED - Connection to 02:13:d3:d9:f5:48 completed [id=0 id_str=]
+2025-01-27T13:22:55.612413-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.6123] device (wlo1): supplicant interface state: 4way_handshake -> completed
+2025-01-27T13:22:55.612456-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-67 noise=9999 txrate=0
+2025-01-27T13:22:55.612480-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.6123] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "YoYoMa"
+2025-01-27T13:22:55.612513-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.6123] device (p2p-dev-wlo1): supplicant management interface state: 4way_handshake -> completed
+2025-01-27T13:22:55.612537-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.6124] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:55.612648-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.6125] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+2025-01-27T13:22:55.840765-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.8406] dhcp4 (wlo1): state changed new lease, address=10.0.0.16, acd pending
+2025-01-27T13:22:55.975293-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9752] dhcp4 (wlo1): state changed new lease, address=10.0.0.16
+2025-01-27T13:22:55.975466-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9754] policy: set 'YoYoMa 1' (wlo1) as default for IPv4 routing and DNS
+2025-01-27T13:22:55.976283-05:00 harpoon-Z390-AORUS-PRO-WIFI dbus-daemon[1164]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.280' (uid=0 pid=23093 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2025-01-27T13:22:55.976773-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd-resolved[951]: wlo1: Bus client set default route setting: yes
+2025-01-27T13:22:55.977182-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd-resolved[951]: wlo1: Bus client set DNS server list to: 8.8.8.8, 1.1.1.1
+2025-01-27T13:22:55.977650-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9775] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:55.985456-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2025-01-27T13:22:55.988755-05:00 harpoon-Z390-AORUS-PRO-WIFI dbus-daemon[1164]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2025-01-27T13:22:55.988958-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2025-01-27T13:22:55.989476-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9894] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:55.989530-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9895] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+2025-01-27T13:22:55.989656-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9896] manager: NetworkManager state is now CONNECTED_SITE
+2025-01-27T13:22:55.989946-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002175.9899] device (wlo1): Activation: successful, device activated.
+2025-01-27T13:22:55.990621-05:00 harpoon-Z390-AORUS-PRO-WIFI dbus-daemon[1684]: [session uid=1000 pid=1684] Activating service name='org.freedesktop.Notifications' requested by ':1.34' (uid=1000 pid=2001 comm="nm-applet" label="unconfined")
+2025-01-27T13:22:56.008092-05:00 harpoon-Z390-AORUS-PRO-WIFI dbus-daemon[1684]: [session uid=1000 pid=1684] Successfully activated service 'org.freedesktop.Notifications'
+2025-01-27T13:23:06.000434-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2025-01-27T13:23:06.319798-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd-resolved[951]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 8.8.8.8.
+2025-01-27T13:23:07.159426-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-63 noise=9999 txrate=0
+2025-01-27T13:23:11.569764-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd-resolved[951]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 1.1.1.1.
+2025-01-27T13:23:16.624591-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd-resolved[951]: Using degraded feature set TCP instead of UDP for DNS server 8.8.8.8.
+2025-01-27T13:23:16.741799-05:00 harpoon-Z390-AORUS-PRO-WIFI dbus-daemon[1164]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.280' (uid=0 pid=23093 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2025-01-27T13:23:16.751488-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2025-01-27T13:23:16.755080-05:00 harpoon-Z390-AORUS-PRO-WIFI dbus-daemon[1164]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2025-01-27T13:23:16.755167-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2025-01-27T13:23:16.762338-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-01-27T13:23:16.975647-05:00 harpoon-Z390-AORUS-PRO-WIFI NetworkManager[23093]: <info>  [1738002196.9754] manager: NetworkManager state is now CONNECTED_GLOBAL
+2025-01-27T13:23:26.765461-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2025-01-27T13:23:31.838220-05:00 harpoon-Z390-AORUS-PRO-WIFI kernel: [UFW BLOCK] IN=wlo1 OUT= MAC=01:00:5e:00:00:01:02:13:d3:d9:f5:48:08:00 SRC=10.0.0.1 DST=224.0.0.1 LEN=36 TOS=0x00 PREC=0xC0 TTL=1 ID=0 PROTO=2 
+2025-01-27T13:24:15.611282-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-63 noise=9999 txrate=0
+2025-01-27T13:24:53.674234-05:00 harpoon-Z390-AORUS-PRO-WIFI systemd-resolved[951]: Using degraded feature set TCP instead of UDP for DNS server 1.1.1.1.
+2025-01-27T13:25:51.103774-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-85 noise=9999 txrate=57800
+2025-01-27T13:25:52.514743-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-80 noise=9999 txrate=0
+2025-01-27T13:25:58.142431-05:00 harpoon-Z390-AORUS-PRO-WIFI wpa_supplicant[1233]: wlo1: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-82 noise=9999 txrate=39000
